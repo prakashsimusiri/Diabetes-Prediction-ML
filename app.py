@@ -8,7 +8,7 @@ import os
 # Load trained model
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(
-    BASE_DIR, "models", "diabetes_model.pkl"
+    BASE_DIR, "diabetes_model.pkl"
 )
 
 bundle = joblib.load(MODEL_PATH)
